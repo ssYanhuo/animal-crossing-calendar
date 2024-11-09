@@ -1,0 +1,18 @@
+/**
+ * src/styles/settings.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+
+// https://vuetifyjs.com/features/sass-variables/`
+// @use 'vuetify/settings' with (
+//   $color-pack: false
+// );
+@font-face {
+  font-family: 'AlibabaHealth';
+  src: url('../../public/fonts/AlibabaHealthFont2.0CN-85B.ttf') format('truetype');
+}
+
+body {
+  font-family: 'AlibabaHealth', sans-serif;
+}
