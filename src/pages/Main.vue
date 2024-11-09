@@ -126,12 +126,12 @@ async function generateICS() {
             </v-btn>
           </v-col>
           <v-col cols="3" md="6">
-            <v-btn class="ac-btn text-none" block variant="tonal" color="#986852" prepend-icon="mdi-github" @click="openURLInNewTab('#')">
+            <v-btn class="ac-btn text-none" block variant="tonal" color="#986852" prepend-icon="mdi-github" @click="openURLInNewTab('https://github.com/ssYanhuo/animal-crossing-calendar')">
               GitHub
             </v-btn>
           </v-col>
           <v-col cols="3" md="6">
-            <v-btn class="ac-btn text-none" block variant="tonal" color="#986852" prepend-icon="mdi-book-open-variant-outline" @click="openURLInNewTab('#')">
+            <v-btn class="ac-btn text-none" block variant="tonal" color="#986852" prepend-icon="mdi-book-open-variant-outline" @click="openURLInNewTab('https://nookea.com/')">
               狸家
             </v-btn>
           </v-col>
@@ -144,10 +144,10 @@ async function generateICS() {
             <v-btn class="ac-btn text-none mx-1 my-1" size="small" variant="tonal" color="#986852" prepend-icon="mdi-information-outline" @click="showAboutDialog = true">
               关于
             </v-btn>
-            <v-btn class="ac-btn text-none mx-1 my-1" size="small" variant="tonal" color="#986852" prepend-icon="mdi-github" @click="openURLInNewTab('#')">
+            <v-btn class="ac-btn text-none mx-1 my-1" size="small" variant="tonal" color="#986852" prepend-icon="mdi-github" @click="openURLInNewTab('https://github.com/ssYanhuo/animal-crossing-calendar')">
               GitHub
             </v-btn>
-            <v-btn class="ac-btn text-none mx-1 my-1" size="small" variant="tonal" color="#986852" prepend-icon="mdi-open-in-new" @click="openURLInNewTab('#')">
+            <v-btn class="ac-btn text-none mx-1 my-1" size="small" variant="tonal" color="#986852" prepend-icon="mdi-open-in-new" @click="openURLInNewTab('https://nookea.com/')">
               狸家
             </v-btn>
         </div>
