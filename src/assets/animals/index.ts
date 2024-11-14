@@ -1,4 +1,4 @@
-export type AnimalType = {
+export type Animal = {
   name: string,
   specie: string,
   character: string,
@@ -8,7 +8,7 @@ export type AnimalType = {
   sex: string
 };
 
-export const animalsACNH: AnimalType[] = [
+export const animalsACNH: Animal[] = [
   {
     "name": "七七",
     "specie": "猴子",
